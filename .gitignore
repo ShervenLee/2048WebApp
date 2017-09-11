@@ -3,6 +3,7 @@
 *.ldb  
 *.sln  
 *.config  
+.gitignore
   
   
 #¹ıÂËÎÄ¼ş¼ĞDebug,Release,obj  
