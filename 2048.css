@@ -1,0 +1,203 @@
+#newGameButton {
+	position: relative;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	background-color: rgba(219, 87, 5, 1);
+	font-family: 'Yanone Kaffeesatz';
+	font-weight: 70;
+	font-size: 15px;
+	display: block;
+	padding: 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 100px;
+	-webkit-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+	box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+	/*margin: 100px auto;*/
+	width: 60px;
+	text-align: center;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+	position: relative;
+	left: 60px;
+}
+
+#newGameButton:active {
+	-webkit-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+	-moz-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+	box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+	position: relative;
+	top: 6px;
+}
+
+#maxScore>b>span {
+	font-size: 20px;
+	color: red;
+}
+
+header {
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 200px;
+	text-align: center;
+}
+
+header h1 {
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+}
+
+header h1 span {
+	font-size: 20px;
+	color: #DD524D;
+}
+
+header img {
+	position: absolute;
+	left: 50px;
+	top: 10px;
+}
+
+header #muiseanniu {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+header #newgamebutton {
+	display: block;
+	margin: 20px auto;
+	width: 100px;
+	padding: 10px 10px;
+	background-color: #8f7a66;
+	font-family: Arial;
+	color: white;
+	border-radius: 100px;
+	text-decoration: none;
+}
+
+header #newgamebutton:hover {
+	background-color: #9f8b77;
+}
+
+header p {
+	font-family: Arial;
+	font-size: 25px;
+	margin: 20px auto;
+}
+
+#grid-container {
+	width: 312px;
+	height: 312px;
+	margin: 31px auto;
+	/*background-color: #bbada0;*/
+	background-color: #DDF0ED;
+	border-radius: 30px;
+	position: relative;
+}
+
+.grid-cell {
+	width: 60px;
+	height: 60px;
+	border-radius: 50px;
+	/*background-color: #F3F3F3;*/
+	/*background-color: #43A9DE;*/
+	background-color: whitesmoke;	
+	position: absolute;
+}
+
+.number-cell {
+	border-radius: 50px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 37px;
+	line-height: 62px;
+	text-align: center;
+	position: absolute;
+}
+
+.gameover {
+	display: block;
+	margin: 0 auto;
+	width: 312px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+}
+
+.gameover p {
+	font-family: Arial;
+	font-size: 31px;
+	color: white;
+	margin: 12px auto;
+	margin-top: 93px;
+}
+
+.gameover span {
+	font-family: Arial;
+	font-size: 31px;
+	color: white;
+	margin: 12px auto;
+}
+
+#restartgamebutton {
+	display: block;
+	margin: 12px auto;
+	width: 112px;
+	padding: 6px 6px;
+	background-color: #8f7a66;
+	font-family: Arial;
+	font-size: 18px;
+	color: white;
+	border-radius: 6px;
+	text-decoration: none;
+	
+	
+	position: relative;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	background-color: rgba(219, 87, 5, 1);
+	font-family: 'Yanone Kaffeesatz';
+	font-weight: 70;
+	font-size: 15px;
+	display: block;
+	padding: 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 100px;
+	-webkit-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+	box-shadow: 0px 9px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);
+	/*margin: 100px auto;*/
+	width: 60px;
+	text-align: center;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+#restartgamebutton:hover {
+	/*background-color: #9f8b77;*/
+	-webkit-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+	-moz-box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+	box-shadow: 0px 3px 0px rgba(219, 31, 5, 1), 0px 3px 6px rgba(0, 0, 0, .9);
+	position: relative;
+	top: 6px;
+}
+
+#maxScore {
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 120px;
+	height: 30px;
+}

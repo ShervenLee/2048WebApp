@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #test1{
+            width: 100px;
+            height: 100px;
+            background-color: #4eff9d;
+            position: fixed;
+        }
+    </style>
+
+</head>
+<body>
+<div id="test1"></div>
+<script>
+    //y=Asin(wX+f)+C
+    var a,w,f,c,x,y,test1id,topc,scwidth;
+    test1id=document.getElementById("test1");
+    x=0;a=50;f=100;w=5;c=0;topc=200;scwidth=window.screen.availWidth;
+    function test1() {
+        y=a*Math.sin(w*x+f)+c;
+        test1id.style.top=(topc+y)+"px";
+        test1id.style.left=x+"px";
+        if(x>scwidth-test1id.style.width) {
+            test2();
+            return;
+        }
+        x+=10;
+        setTimeout("test1()",40);
+    }
+    function test2() {
+        y=a*Math.sin(w*x+f)+c;
+        test1id.style.top=(topc+y)+"px";
+        test1id.style.left=x+"px";
+        if(x<10) {
+            test1();
+            return;
+        }
+        x-=10;
+        setTimeout("test2()",40);
+    }
+    test1();
+</script>
+</body>
+</html>
